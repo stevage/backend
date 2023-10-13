@@ -1,0 +1,11 @@
+POST https://trainle-backend.glitch.me/event HTTP/1.1
+content-type: application/json
+
+{
+  "site": "Melbourne",
+  "event": "test",
+  "gamenumber": -1,
+  "target": "nowhere",
+  "guesscount": 0,
+  "data": "{}"
+}

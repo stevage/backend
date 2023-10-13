@@ -1,0 +1,20 @@
+{
+  "name": "trainle-backend",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "type":"module",
+  "engines": { "node": "16.x" },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "export-to-csv": "^1.2.0",
+    "express": "^5.0.0-beta.1",
+    "sqlite": "^5.0.1",
+    "sqlite3": "^5.1.6"
+  },
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  }
+}
